@@ -224,6 +224,7 @@ sh 'oc set image --local=true -f Orchestration/deployment.yaml ${MS_NAME}=${DOCK
 	catch(e){
 		echo "Pipeline has failed"
 		emailext body: "${env.BUILD_URL} has result ${currentBuild.result} at stage ${FAILED_STAGE} with error" + e.toString(), subject: "Failure of pipeline: ${currentBuild.fullDisplayName}", to: "${mailrecipient}"
+Bijin
 	    throw e
 	
 	}
