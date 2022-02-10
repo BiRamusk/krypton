@@ -50,7 +50,7 @@
     <properties-maven-plugin.version>1.0.0</properties-maven-plugin.version>
     <javassist.version>3.23.1-GA</javassist.version>
     <jaxb-runtime.version>2.3.2</jaxb-runtime.version>
-    <hibernate-core.version>5.3.8.Final</hibernate-core.version>
+    <hibernate-core.version>5.4.24.Final</hibernate-core.version>
     <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
     <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx256m</argLine>
   </properties>
